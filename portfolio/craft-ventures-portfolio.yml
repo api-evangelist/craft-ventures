@@ -3,9 +3,9 @@ method: searched
 source: https://www.craftventures.com/portfolio
 summary:
   portfolio_total: 111
-  in_network: 45
-  api_providers: 34
-  missing: 66
+  in_network: 111
+  api_providers: 43
+  missing: 0
   stubs_created: 0
 companies:
 - name: Replit
@@ -44,27 +44,30 @@ companies:
   sector: security
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: horizon3ai
+  slug: horizon3ai
+  matched_by: domain
 - name: Norm Ai
   url: https://norm.ai
   description: AI agents that automate regulatory compliance.
   sector: ai
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: norm-ai
+  slug: norm-ai
+  matched_by: domain
 - name: Upwind
   url: https://upwind.io
   description: Cloud runtime security platform.
   sector: security
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: upwind
+  in_network: true
+  is_api_provider: true
+  slug: upwind
+  matched_by: domain
 - name: OpenEvidence
   url: https://openevidence.com
   description: AI clinical decision-support platform for physicians.
@@ -81,18 +84,20 @@ companies:
   sector: defense
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: allen-control-systems
+  slug: allen-control-systems
+  matched_by: domain
 - name: Addepar
   url: https://addepar.com
   description: Wealth-management data and analytics platform.
   sector: fintech
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: addepar
+  slug: addepar
+  matched_by: domain
 - name: Affirm
   url: https://affirm.com
   description: Buy-now-pay-later consumer lending platform.
@@ -109,18 +114,20 @@ companies:
   sector: adtech
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: agentio
+  slug: agentio
+  matched_by: domain
 - name: AgentSync
   url: https://agentsync.io
   description: Insurance producer compliance and licensing platform.
   sector: fintech
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: agentsync
+  slug: agentsync
+  matched_by: domain
 - name: Airbnb
   url: https://airbnb.com
   description: Online marketplace for lodging and travel experiences.
@@ -147,36 +154,40 @@ companies:
   sector: fintech
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: arch-labs
+  in_network: true
+  is_api_provider: true
+  slug: arch
+  matched_by: domain
 - name: Arcol
   url: https://arcol.io
   description: Collaborative building-design and BIM software.
   sector: developer-tools
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: arcol
+  slug: arcol
+  matched_by: domain
 - name: Autonomic
   url: https://autonomic.ai
   description: Connected-vehicle mobility cloud platform.
   sector: infrastructure
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: autonomic
+  slug: autonomic
+  matched_by: domain
 - name: Bandana
   url: https://bandana.com
   description: Hourly job marketplace for blue-collar work.
   sector: marketplace
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bandana
+  slug: bandana
+  matched_by: domain
 - name: Bird
   url: https://bird.co
   description: Omnichannel messaging and CRM platform.
@@ -203,45 +214,50 @@ companies:
   sector: crypto
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bitwise-investments
+  slug: bitwise-investments
+  matched_by: domain
 - name: Cabal
   url: https://getcabal.com
   description: Investor-relations and cap-table collaboration software.
   sector: saas
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cabal
+  slug: cabal
+  matched_by: domain
 - name: Callin
   url: https://callin.com
   description: Podcasting and live audio conversation platform.
   sector: consumer
   status: unknown
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: callin
+  slug: callin
+  matched_by: domain
 - name: Camber
   url: https://camber.health
   description: Billing and revenue platform for behavioral health.
   sector: health
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: camber
+  slug: camber
+  matched_by: domain
 - name: Cartwheel
   url: https://getcartwheel.com
   description: AI animation tools for 3D characters.
   sector: ai
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cartwheel
+  slug: cartwheel
+  matched_by: domain
 - name: ClickUp
   url: https://clickup.com
   description: All-in-one productivity and project-management platform.
@@ -258,9 +274,10 @@ companies:
   sector: marketplace
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cloudtrucks
+  slug: cloudtrucks
+  matched_by: domain
 - name: CrewAI
   url: https://crewai.com
   description: Framework and platform for orchestrating AI agents.
@@ -277,27 +294,30 @@ companies:
   sector: ai
   status: unknown
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: daylight
+  slug: daylight
+  matched_by: domain
 - name: Dune Security
   url: https://dune.security
   description: Adaptive human-risk and security-awareness platform.
   sector: security
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dune-security
+  slug: dune-security
+  matched_by: domain
 - name: EchoMark
   url: https://echomark.com
   description: Information-leak protection via invisible watermarking.
   sector: security
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: echomark
+  slug: echomark
+  matched_by: domain
 - name: Eight Sleep
   url: https://eightsleep.com
   description: Smart temperature-controlled sleep technology.
@@ -324,9 +344,10 @@ companies:
   sector: saas
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: equals
+  slug: equals
+  matched_by: name-slug
 - name: Eventbrite
   url: https://eventbrite.com
   description: Event ticketing and discovery marketplace.
@@ -343,9 +364,10 @@ companies:
   sector: saas
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fellow
+  slug: fellow
+  matched_by: domain
 - name: Fingerprint
   url: https://fingerprint.com
   description: Device-identification and fraud-prevention API.
@@ -362,82 +384,90 @@ companies:
   sector: infrastructure
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: first-resonance
+  slug: first-resonance
+  matched_by: domain
 - name: Fold
   url: https://foldapp.com
   description: Bitcoin rewards and financial services app.
   sector: fintech
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fold
+  slug: fold
+  matched_by: domain
 - name: GenHealth.ai
   url: https://genhealth.ai
   description: Generative-AI platform for healthcare operations.
   sector: health
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: genhealthai
+  slug: genhealthai
+  matched_by: domain
 - name: Glue
   url: https://glue.ai
   description: AI-powered team chat application.
   sector: saas
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: glue
+  slug: glue
+  matched_by: domain
 - name: Greenlite
   url: https://greenlite.com
   description: AI agents for financial-crime compliance operations.
   sector: ai
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: greenlite
+  slug: greenlite
+  matched_by: domain
 - name: Grid
   url: https://withgrid.com
   description: Field-service platform for utilities and energy.
   sector: infrastructure
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: grid
+  slug: grid
+  matched_by: domain
 - name: Harmonic
   url: https://harmonic.ai
   description: AI startup-data and market-intelligence platform.
   sector: ai
   status: active
   source: https://www.craftventures.com/portfolio
-  slug: harmonic
+  slug: harmonic-ai
   in_network: true
-  is_api_provider: false
-  matched_by: name-slug
+  is_api_provider: true
+  matched_by: domain
 - name: Houzz
   url: https://houzz.com
   description: Home-renovation and design marketplace.
   sector: marketplace
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: houzz
+  slug: houzz
+  matched_by: domain
 - name: Instawork
   url: https://instawork.com
   description: Flexible-staffing marketplace for hourly work.
   sector: marketplace
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: instawork
+  slug: instawork
+  matched_by: domain
 - name: Intercom
   url: https://intercom.com
   description: AI customer-service and messaging platform.
@@ -454,9 +484,10 @@ companies:
   sector: saas
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: klue
+  slug: klue
+  matched_by: domain
 - name: Knock
   url: https://knock.app
   description: Notifications-infrastructure API for developers.
@@ -483,9 +514,10 @@ companies:
   sector: infrastructure
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: loft-dynamics
+  slug: loft-dynamics
+  matched_by: domain
 - name: Lyft
   url: https://lyft.com
   description: Ridesharing and mobility marketplace.
@@ -502,36 +534,40 @@ companies:
   sector: frontier-tech
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: neuralink
+  slug: neuralink
+  matched_by: domain
 - name: Oasis Security
   url: https://oasis.security
   description: Non-human identity management platform.
   sector: security
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: oasis-security
+  slug: oasis
+  matched_by: domain
 - name: Ohalo
   url: https://ohalo.com
   description: Automated data-discovery and governance platform.
   sector: developer-tools
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ohalo
+  slug: ohalo
+  matched_by: name-slug
 - name: Onehouse
   url: https://onehouse.ai
   description: Managed data-lakehouse platform.
   sector: developer-tools
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: onehouse
+  slug: onehouse
+  matched_by: domain
 - name: Opendoor
   url: https://opendoor.com
   description: Online home-buying and selling marketplace.
@@ -548,18 +584,20 @@ companies:
   sector: saas
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: orum
+  in_network: true
+  is_api_provider: true
+  slug: orum
+  matched_by: name-slug
 - name: Pair Team
   url: https://pairteam.com
   description: Care-coordination platform for Medicaid populations.
   sector: health
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pair-team
+  slug: pair-team
+  matched_by: domain
 - name: Palantir
   url: https://palantir.com
   description: Data-analytics and operations software platform.
@@ -576,9 +614,10 @@ companies:
   sector: marketplace
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: palmstreet
+  slug: palmstreet
+  matched_by: domain
 - name: ParadeDB
   url: https://paradedb.com
   description: Postgres-based search and analytics database.
@@ -587,7 +626,7 @@ companies:
   source: https://www.craftventures.com/portfolio
   slug: paradedb
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Pave
   url: https://pave.com
@@ -595,9 +634,10 @@ companies:
   sector: saas
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pave
+  slug: pave
+  matched_by: domain
 - name: Pearl
   url: https://hellopearl.com
   description: AI platform for dental practices.
@@ -624,18 +664,20 @@ companies:
   sector: infrastructure
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: peregrine
+  slug: peregrine
+  matched_by: domain
 - name: Pickle
   url: https://shoponpickle.com
   description: Peer-to-peer fashion rental marketplace.
   sector: marketplace
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pickle
+  slug: pickle
+  matched_by: domain
 - name: Postmates
   url: https://postmates.com
   description: On-demand delivery marketplace.
@@ -662,9 +704,10 @@ companies:
   sector: fintech
   status: unknown
   source: https://www.craftventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: quo
+  in_network: true
+  is_api_provider: true
+  slug: quo
+  matched_by: domain
 - name: Quora
   url: https://quora.com
   description: Question-and-answer knowledge platform.
@@ -701,9 +744,10 @@ companies:
   sector: fintech
   status: acquired
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: returnly
+  slug: returnly
+  matched_by: domain
 - name: Roboflow
   url: https://roboflow.com
   description: Computer-vision developer platform.
@@ -720,18 +764,20 @@ companies:
   sector: saas
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: route
+  slug: route
+  matched_by: domain
 - name: Sandbox VR
   url: https://sandboxvr.com
   description: Location-based virtual-reality entertainment.
   sector: consumer
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sandbox-vr
+  slug: sandbox-vr
+  matched_by: domain
 - name: Saronic
   url: https://saronic.com
   description: Autonomous surface-vessel defense company.
@@ -748,27 +794,30 @@ companies:
   sector: saas
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: scratchpad
+  slug: scratchpad
+  matched_by: domain
 - name: Secoda
   url: https://secoda.co
   description: AI-powered data-catalog and governance platform.
   sector: developer-tools
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: secoda
+  slug: secoda
+  matched_by: domain
 - name: SecurityPal
   url: https://securitypalhq.com
   description: Security-questionnaire and compliance-response platform.
   sector: security
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: securitypal
+  slug: securitypal
+  matched_by: domain
 - name: Sendoso
   url: https://sendoso.com
   description: Corporate gifting and direct-mail platform.
@@ -795,9 +844,10 @@ companies:
   sector: marketplace
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: shef
+  slug: shef
+  matched_by: name-slug
 - name: Slack
   url: https://slack.com
   description: Business messaging and collaboration platform.
@@ -814,27 +864,30 @@ companies:
   sector: consumer
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: snackmagic
+  in_network: true
+  is_api_provider: true
+  slug: snackmagic
+  matched_by: domain
 - name: Snackpass
   url: https://snackpass.co
   description: Social mobile food-ordering platform.
   sector: marketplace
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: snackpass
+  slug: snackpass
+  matched_by: domain
 - name: Solace
   url: https://solace.health
   description: In-home and virtual patient-advocacy platform.
   sector: health
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: solace
+  slug: solace
+  matched_by: domain
 - name: Sourcegraph
   url: https://sourcegraph.com
   description: Code-search and AI coding-assistant platform.
@@ -851,45 +904,50 @@ companies:
   sector: saas
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: spekit
+  slug: spekit
+  matched_by: domain
 - name: Starbridge
   url: https://starbridge.ai
   description: AI platform for public-sector sales.
   sector: ai
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: starbridge
+  in_network: true
+  is_api_provider: true
+  slug: starbridge
+  matched_by: domain
 - name: Swarm
   url: https://swarm.space
   description: Low-cost satellite IoT connectivity.
   sector: infrastructure
   status: acquired
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: swarm
+  slug: swarm
+  matched_by: domain
 - name: The Boring Company
   url: https://boringcompany.com
   description: Tunnel-construction and infrastructure company.
   sector: frontier-tech
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: the-boring-company
+  slug: the-boring-company
+  matched_by: domain
 - name: Trellis
   url: https://trellis.law
   description: AI legal-research and litigation-analytics platform.
   sector: ai
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: trellis
+  slug: trellis
+  matched_by: domain
 - name: Trulia
   url: https://trulia.com
   description: Online residential real-estate marketplace.
@@ -906,18 +964,20 @@ companies:
   sector: marketplace
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: trusted-health
+  slug: trusted-health
+  matched_by: domain
 - name: TrustLayer
   url: https://trustlayer.io
   description: Insurance-verification and compliance platform.
   sector: fintech
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: trustlayer
+  in_network: true
+  is_api_provider: true
+  slug: trustlayer
+  matched_by: domain
 - name: Twilio
   url: https://twilio.com
   description: Cloud communications API platform.
@@ -974,27 +1034,30 @@ companies:
   sector: health
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: verifiable
+  in_network: true
+  is_api_provider: true
+  slug: verifiable
+  matched_by: domain
 - name: Vooma
   url: https://vooma.com
   description: AI automation platform for freight logistics.
   sector: ai
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: vooma
+  in_network: true
+  is_api_provider: true
+  slug: vooma
+  matched_by: domain
 - name: Warby Parker
   url: https://warbyparker.com
   description: Direct-to-consumer eyewear brand.
   sector: consumer
   status: ipo
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: warby-parker
+  slug: warby-parker
+  matched_by: domain
 - name: WorkOS
   url: https://workos.com
   description: Enterprise-readiness developer platform.
@@ -1011,27 +1074,30 @@ companies:
   sector: fintech
   status: acquired
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: x1
+  slug: x1
+  matched_by: domain
 - name: Xona Space Systems
   url: https://xonaspace.com
   description: Satellite positioning-navigation-timing network.
   sector: frontier-tech
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: xona-space-systems
+  slug: xona-space-systems
+  matched_by: domain
 - name: Xoom
   url: https://xoom.com
   description: International money-transfer service.
   sector: fintech
   status: acquired
   source: https://www.craftventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: xoom
+  slug: xoom
+  matched_by: domain
 - name: Yammer
   url: https://yammer.com
   description: Enterprise social networking platform.

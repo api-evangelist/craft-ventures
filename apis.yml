@@ -17,6 +17,17 @@ description: >-
   include Airbnb, Affirm, Reddit, Uber, Lyft, Palantir, Slack, ElevenLabs,
   Supabase, Anduril, and Neuralink. Headquartered in San Francisco, with offices
   in New York City and Austin, Texas, and a primarily United States geographic focus.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 image: https://www.craftventures.com/favicon.ico
 x-type: venture-capital
 x-category: Venture Capital
