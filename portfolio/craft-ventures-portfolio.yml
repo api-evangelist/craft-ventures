@@ -3,9 +3,9 @@ method: searched
 source: https://www.craftventures.com/portfolio
 summary:
   portfolio_total: 111
-  in_network: 111
-  api_providers: 43
-  missing: 0
+  in_network: 109
+  api_providers: 47
+  missing: 2
   stubs_created: 0
 companies:
 - name: Replit
@@ -284,9 +284,9 @@ companies:
   sector: ai
   status: active
   source: https://www.craftventures.com/portfolio
-  slug: crewai
+  slug: crewai-cloud
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Daylight
   url: https://daylight.ai
@@ -345,7 +345,7 @@ companies:
   status: active
   source: https://www.craftventures.com/portfolio
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: equals
   matched_by: name-slug
 - name: Eventbrite
@@ -365,7 +365,7 @@ companies:
   status: active
   source: https://www.craftventures.com/portfolio
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: fellow
   matched_by: domain
 - name: Fingerprint
@@ -494,7 +494,7 @@ companies:
   sector: developer-tools
   status: active
   source: https://www.craftventures.com/portfolio
-  slug: knock
+  slug: knock-app
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -546,7 +546,7 @@ companies:
   source: https://www.craftventures.com/portfolio
   in_network: true
   is_api_provider: false
-  slug: oasis
+  slug: oasis-security
   matched_by: domain
 - name: Ohalo
   url: https://ohalo.com
@@ -556,8 +556,8 @@ companies:
   source: https://www.craftventures.com/portfolio
   in_network: true
   is_api_provider: false
-  slug: ohalo
-  matched_by: name-slug
+  slug: ohalo-genetics
+  matched_by: domain
 - name: Onehouse
   url: https://onehouse.ai
   description: Managed data-lakehouse platform.
@@ -584,10 +584,10 @@ companies:
   sector: saas
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: true
-  is_api_provider: true
-  slug: orum
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: orum
+  suggested_slug: orumhq-com
 - name: Pair Team
   url: https://pairteam.com
   description: Care-coordination platform for Medicaid populations.
@@ -754,9 +754,9 @@ companies:
   sector: developer-tools
   status: active
   source: https://www.craftventures.com/portfolio
-  slug: roboflow-universe
+  slug: roboflow
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Route
   url: https://route.com
@@ -844,10 +844,10 @@ companies:
   sector: marketplace
   status: active
   source: https://www.craftventures.com/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: shef
-  matched_by: name-slug
+  x-name-collision: shef
+  suggested_slug: myshef-com
 - name: Slack
   url: https://slack.com
   description: Business messaging and collaboration platform.
@@ -905,7 +905,7 @@ companies:
   status: active
   source: https://www.craftventures.com/portfolio
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: spekit
   matched_by: domain
 - name: Starbridge

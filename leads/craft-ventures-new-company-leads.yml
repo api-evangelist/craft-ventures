@@ -1,4 +1,18 @@
-generated: '2026-07-22'
+generated: '2026-10-18'
 method: derived
 source_vc: craft-ventures
-leads: []
+leads:
+- name: Orum
+  url: https://orumhq.com
+  suggested_slug: orumhq-com
+  sector: saas
+  source_vc: craft-ventures
+  source: https://www.craftventures.com/portfolio
+  stub_created: false
+- name: Shef
+  url: https://myshef.com
+  suggested_slug: myshef-com
+  sector: marketplace
+  source_vc: craft-ventures
+  source: https://www.craftventures.com/portfolio
+  stub_created: false
